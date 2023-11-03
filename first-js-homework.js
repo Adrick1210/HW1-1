@@ -31,7 +31,7 @@ console.log(a < b);
 console.log(c > d);
 console.log(e === e);
 console.log(a < b < c);
-console.log((a === a) !== d);
+console.log((a === a) < d);
 console.log(e !== "Kevin");
 console.log(48 !== "48");
 console.log(f !== e);
@@ -75,7 +75,6 @@ while (i < 20) {
   // The string value increments
   i++;
 }
-
 // The log prints to the console additional A's every time the loop runs up until the limit (20)
 console.log(letters);
 
@@ -107,6 +106,7 @@ for (let i = 999; i > 0; i--) {
 };
 
 // String concatenation 
+
 for (let i = 1; i < 10; i++) {
   console.log('The value of i is: ' + i + ' of 10');
 }
@@ -125,6 +125,7 @@ for (let i = 0; i < StarWars.length; i++) {
   console.log(StarWars[i]);
 }
 
+// Each element with value
 for (let i = 0; i < StarWars.length; i++) {
   console.log(`${StarWars[i]} ` + i);
 }
